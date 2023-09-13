@@ -2,8 +2,8 @@ import React,{useState} from "react";
 import './../styles/App.css';
 
 const App = () => {
-  const[task,setTask]=useState("");
-  const[taskList,setTaskList]=useState([]);
+  const[task,setTask]=useState("")
+  const[taskList,setTaskList]=useState([])
 
   const handleChange = (e) => {
     setTask(e.target.value);
